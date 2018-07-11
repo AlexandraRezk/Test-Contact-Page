@@ -1,0 +1,240 @@
+body{
+    overflow-x: hidden;
+    height: 280vw;
+}
+
+/*Marisa's Contact CSS*/
+#marisa-cartoon{
+	width: 25vw;
+    float:right;
+}
+
+/*.large-right-bubble{
+    transform: scaleY(-1);
+    width: 67vw;
+    height: 139vw;
+}*/
+.marisa-description{
+	position: absolute;
+    top: 10vw;
+    left: 5vw;
+    font-size: 1em;
+}
+
+.marisa-description:before{
+    content: "";
+    position: absolute;
+	width: 68vw;
+    height: 205vw;
+    top: -3vw;
+    left: -3vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 68vw 205vw;
+    transform: scaleY(-1);
+}
+
+
+/*.marisa-description{
+	width: 80vw;
+    display: inline-block;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 90vw 120vw;
+    padding: 5vw;
+    transform: scaleY(-1);
+}*/
+
+/*.marisa-description:before{
+    content: "";
+    position: absolute;
+	width: 68vw;
+    height: 110vw;
+    top: 10vw;
+    display: inline-block;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 68vw 110vw;
+    transform: scaleY(-1);
+}*/
+
+.marisa-description h3{
+    width: 60vw;
+	margin: 0;
+}
+.marisa-description h5{
+    width: 60vw;
+	margin: 0;
+}
+
+.marisa-description p{
+	width: 60vw;
+	margin: 0;
+    text-indent: 25px;
+}
+
+.short-right-bubble{
+    transform: scaleY(-1);
+    width: 80vw;
+    height: 18vw;
+}
+
+.marisa-social-media{
+	width: 100vw;
+	position: absolute;
+    top: 215vw;
+    left: 10vw;
+}
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+	width: 68vw;
+    height: 15vw;
+    top: -4vw;
+    left: -3vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 68vw 15vw;
+    transform: scaleY(-1);
+}
+
+.marisa-social-media img{
+	width: 8vw;
+	float: left;
+}
+
+.marisa-social-media a img:hover{
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transform: scale(1.4);
+}
+
+/*Alexandra's Contact CSS*/
+#alexandra-cartoon{
+	width: 25vw;
+    margin-right: 3vw;
+    float:left;
+}
+.alexandra-description{
+	width: 100vw;
+    display: inline-block;
+    padding-top: 10vw;
+}
+
+.alexandra-description h3{
+	margin: 0;
+}
+
+.alexandra-description p{
+	width: 100vw;
+	/*margin: 0;*/
+}
+
+.alexandra-social-media{
+	width: 100vw;
+	float: right;
+}
+
+.alexandra-social-media a img{
+	width: 10vw;
+    float: right;
+}
+
+.alexandra-social-media a img:hover{
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transform: scale(1.4);
+}
+
+
+/*
+@media (max-width:1300px){
+    .marisa-description{
+	width: 1100px;
+}
+    .marisa-description p{
+	width: 850px;
+}
+    .alexandra-description{
+        width:1100px;
+    }
+    .alexandra-description p{
+	width: 800px;
+}
+}*/
+@media (min-width:800px){
+    body{
+    height: 100vw;
+}
+    .marisa-description {
+    top: 27vw;
+}
+    .marisa-description:before{
+    content: "";
+    height: 60vw;
+    background-size: 68vw 60vw;
+}
+    
+    .marisa-social-media{
+    top: 90vw;
+    left: 13vw;
+}
+    .marisa-social-media:before{
+	content: "";
+    height: 10vw;
+    top: -4vw;
+    background-size: 68vw 10vw;
+}
+    
+    .marisa-social-media img{
+    position: relative;
+	top: -3vw;
+}
+}
+
+@media(min-width:1000px){
+    body{
+    height: 70vw;
+}
+    
+    #marisa-cartoon{
+	width: 25vw;
+    float:right;
+    position: relative;
+     top: 25vw;
+}
+    
+.marisa-description{
+    top: 15vw;
+    left: 5vw;
+}
+    .marisa-description:before{
+    content: "";
+    height: 40vw;
+    background-size: 68vw 40vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media{
+    top: 58vw;
+}
+    .marisa-social-media:before{
+	content: "";
+    width: 45vw;
+    height: 8vw;
+    top: -4vw;
+    left: 10vw;
+    background-size: 45vw 8vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 5vw;
+    position: relative;
+	top: -3vw;
+    left: 13vw;
+}
+    
+}
