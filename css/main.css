@@ -27,7 +27,7 @@ li{
 
 /*Games*/
 #games{
-   display:none;
+   display: none;
 }
 
 /*Logo*/
@@ -62,7 +62,7 @@ li{
 /*Games*/
 
    #games{
-   display:inline-block;
+   display: inline-block;
 }
 	
     /*Logo*/
