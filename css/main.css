@@ -25,6 +25,11 @@ li{
     display: inline-block;
 }
 
+/*Games*/
+#games{
+   display:none;
+}
+
 /*Logo*/
 /*#logo img{
     width: 125px;
@@ -54,6 +59,12 @@ li{
     .nav-links img{
     width: 5vw;
 }
+/*Games*/
+
+   #games{
+   display:inline-block;
+}
+	
     /*Logo*/
     #logo{
     position: absolute;
