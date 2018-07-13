@@ -8,7 +8,7 @@ body{
 
 /*Nav Bar*/
 nav{
-    /*text-align: center;*/
+    text-align: center;
     overflow: hidden;
     background-color: #0d0e10;
     position: fixed;
@@ -50,11 +50,9 @@ li{
 
 @media(min-width:800px){
     nav{
-    /*text-align: center;*/
     position: relative;
     top: 0;
     width: 100vw;
-    text-align: center;
 }
     .nav-links img{
     width: 5vw;
