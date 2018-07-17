@@ -9,98 +9,27 @@ body{
     float:right;
 }
 
-/*.large-right-bubble{
-    transform: scaleY(-1);
-    width: 67vw;
-    height: 139vw;
-}*/
-.marisa-description{
-	position: absolute;
-    top: 10vw;
-    left: 5vw;
-    font-size: 1em;
+#marisa-copy-1 img, #marisa-copy-2 img, #marisa-copy-3 img{
+    width: 65vw;
 }
 
-.marisa-description:before{
-    content: "";
-    position: absolute;
-	width: 68vw;
-    height: 205vw;
-    top: -3vw;
-    left: -3vw;
-    z-index: -1;
-    background-image: url(../images/creator_contact_art/large_right_bubble.png);
-    background-size: 68vw 205vw;
-    transform: scaleY(-1);
-}
-
-
-/*.marisa-description{
-	width: 80vw;
-    display: inline-block;
-    z-index: -1;
-    background-image: url(../images/creator_contact_art/large_right_bubble.png);
-    background-size: 90vw 120vw;
-    padding: 5vw;
-    transform: scaleY(-1);
-}*/
-
-/*.marisa-description:before{
-    content: "";
-    position: absolute;
-	width: 68vw;
-    height: 110vw;
-    top: 10vw;
-    display: inline-block;
-    z-index: -1;
-    background-image: url(../images/creator_contact_art/large_right_bubble.png);
-    background-size: 68vw 110vw;
-    transform: scaleY(-1);
-}*/
-
-.marisa-description h3{
-    width: 60vw;
-	margin: 0;
-}
-.marisa-description h5{
-    width: 60vw;
-	margin: 0;
-}
-
-.marisa-description p{
-	width: 60vw;
-	margin: 0;
-    text-indent: 25px;
-}
-
-.short-right-bubble{
-    transform: scaleY(-1);
-    width: 80vw;
-    height: 18vw;
-}
-
-.marisa-social-media{
-	width: 100vw;
-	position: absolute;
-    top: 215vw;
-    left: 10vw;
-}
-    .marisa-social-media:before{
+.marisa-social-media:before{
 	content: "";
     position: absolute;
-	width: 68vw;
-    height: 15vw;
-    top: -4vw;
-    left: -3vw;
+    left: 20vw;
+    width: 45vw;
+    height: 6vw;
     z-index: -1;
     background-image: url(../images/creator_contact_art/short_right_bubble.png);
-    background-size: 68vw 15vw;
+    background-size: 45vw 6vw;
     transform: scaleY(-1);
 }
 
 .marisa-social-media img{
-	width: 8vw;
-	float: left;
+    width: 4vw;
+    position: relative;
+    top: 1vw;
+    left: 21vw;
 }
 
 .marisa-social-media a img:hover{
@@ -148,6 +77,118 @@ body{
         transform: scale(1.4);
 }
 
+@media (min-width:800px){
+    #marisa-cartoon{
+    position: relative;
+    top: 5vw;
+}
+
+#marisa-copy-1 img, #marisa-copy-2 img, #marisa-copy-3 img{
+   position: relative;
+    top: 20vw;
+}
+
+.marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 85.5vw;
+    left: 17vw;
+    width: 45vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 7vw;
+}
+
+.marisa-social-media img{
+    top: 21.5vw;
+    left: 21vw;
+}
+}
+
+@media (min-width:1000px){
+    #marisa-cartoon{
+    position: relative;
+    top: 15vw;
+}
+    #marisa-copy-1 img{
+    width: 65vw; 
+    top:0vw;
+    left: 7vw;
+}
+    #marisa-copy-2 img, #marisa-copy-3 img{
+        display: none;
+    }
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 39vw;
+    left: 35vw;
+    width: 35vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 35vw 7vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 3.75vw; 
+    top: 1vw;
+    left: 36.5vw;
+}
+}@media (min-width:1225px){
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 38vw;
+    left: 35vw;
+    width: 35vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 35vw 7vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 3.75vw; 
+    top: 1vw;
+    left: 36.5vw;
+}
+}
+@media (min-width:1500px){
+    #marisa-cartoon{
+    position: relative;
+    top: 15vw;
+}
+    #marisa-copy-1 img{
+    width: 45vw; 
+    top:5vw;
+    left: 25vw;
+}
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 33vw;
+    left: 35vw;
+    width: 35vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 35vw 7vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    top: 6.5vw;
+    left: 36vw;
+}
+}
+
 
 /*
 @media (max-width:1300px){
@@ -163,78 +204,33 @@ body{
     .alexandra-description p{
 	width: 800px;
 }
-}*/
-@media (min-width:800px){
-    body{
-    height: 100vw;
 }
-    .marisa-description {
-    top: 27vw;
+@media (max-width:772px){
+    .marisa-description{
+	width: 650px;
 }
-    .marisa-description:before{
-    content: "";
-    height: 60vw;
-    background-size: 68vw 60vw;
+    .marisa-description p{
+	width: 700px;
 }
-    
     .marisa-social-media{
-    top: 90vw;
-    left: 13vw;
+    margin-top: 0px;
+    margin-right: -30px;
 }
-    .marisa-social-media:before{
-	content: "";
-    height: 10vw;
-    top: -4vw;
-    background-size: 68vw 10vw;
-}
-    
-    .marisa-social-media img{
-    position: relative;
-	top: -3vw;
-}
+    .marisa-social-media a img{
+	margin-top: 0px;
 }
 
-@media(min-width:1000px){
-    body{
-    height: 70vw;
+    .alexandra-description{
+        width:650px;
+    }
+    .alexandra-description p{
+	width: 700px;
 }
-    
-    #marisa-cartoon{
-	width: 25vw;
-    float:right;
-    position: relative;
-     top: 25vw;
+    .alexandra-social-media{
+    margin-top: 0px;
+    margin-right: -30px;
 }
-    
-.marisa-description{
-    top: 15vw;
-    left: 5vw;
+    .alexandra-social-media a img{
+	margin-top: 0px;
 }
-    .marisa-description:before{
-    content: "";
-    height: 40vw;
-    background-size: 68vw 40vw;
-    transform: scaleY(1);
-}
-    
-    .marisa-social-media{
-    top: 58vw;
-}
-    .marisa-social-media:before{
-	content: "";
-    width: 45vw;
-    height: 8vw;
-    top: -4vw;
-    left: 10vw;
-    background-size: 45vw 8vw;
-    transform: scaleY(1);
-}
-    
-    .marisa-social-media img{
-    width: 5vw;
-    position: relative;
-	top: -3vw;
-    left: 13vw;
-}
-    
-}
+}*/
