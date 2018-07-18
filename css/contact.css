@@ -172,7 +172,11 @@ body{
 }
 
 @media(min-width:700px){
-    .marisa-social-media:before{
+body{
+        height: 218vw;
+}
+    
+.marisa-social-media:before{
     top:89vw;
     left: 20vw;
 }
@@ -188,7 +192,11 @@ body{
 }
 
 @media (min-width:800px){
-    #marisa-cartoon{
+body{
+        height: 170vw;
+}
+
+#marisa-cartoon{
     position: relative;
     top: 5vw;
 }
@@ -231,17 +239,24 @@ body{
 }
 
 @media (min-width:1000px){
-    #marisa-cartoon{
+
+body{
+        height: 85vw;
+}
+    
+#marisa-cartoon{
     top: 20vw;
     right: 5vw;
     width: 18vw;
 }
-    #marisa-copy-1 img{
+
+#marisa-copy-1 img{
     width: 65vw; 
     top:0vw;
     left: 7vw;
 }
-    #marisa-copy-2 img, #marisa-copy-3 img{
+
+#marisa-copy-2 img, #marisa-copy-3 img{
         display: none;
     }
     
@@ -307,17 +322,23 @@ body{
 }
 
 @media (min-width:1500px){
-    #marisa-cartoon{
+    
+body{
+        height: 57vw;
+}
+    
+#marisa-cartoon{
     width: 15vw;
     top: 15vw;
 }
-    #marisa-copy-1 img{
+
+#marisa-copy-1 img{
     width: 35vw; 
     top:5vw;
     left: 40vw;
 }
     
-    .marisa-social-media:before{
+.marisa-social-media:before{
 	content: "";
     position: absolute;
     top: 29vw;
