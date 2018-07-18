@@ -8,12 +8,12 @@ body{
 
 /*Nav Bar*/
 nav{
-    /*text-align: center;*/
+    text-align: center;
     overflow: hidden;
     background-color: #0d0e10;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 90vw;
     z-index: 1;
 }
 
@@ -23,6 +23,11 @@ nav{
 
 li{
     display: inline-block;
+}
+
+/*Games*/
+#games{
+   display: none;
 }
 
 /*Logo*/
@@ -45,15 +50,19 @@ li{
 
 @media(min-width:800px){
     nav{
-    /*text-align: center;*/
     position: relative;
     top: 0;
     width: 100vw;
-    text-align: center;
 }
     .nav-links img{
     width: 5vw;
 }
+/*Games*/
+
+   #games{
+   display: inline-block;
+}
+	
     /*Logo*/
     #logo{
     position: absolute;

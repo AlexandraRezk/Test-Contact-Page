@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     overflow-x: hidden;
     height: 160vw;
@@ -275,4 +276,333 @@ body{
     left: 13vw;
 }
     
+=======
+body{
+    overflow-x: hidden;
+    
+}
+
+/*Marisa's Contact CSS*/
+#marisa-cartoon{
+	width: 25vw;
+    float:right;
+}
+
+#marisa-copy-1 img, #marisa-copy-2 img, #marisa-copy-3 img{
+    width: 65vw;
+    position: relative;
+    top: 5vw;
+}
+
+.marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top:95vw;
+    left: 20vw;
+    width: 45vw;
+    height: 6vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 6vw;
+    transform: scaleY(-1);
+}
+
+.marisa-social-media img{
+    width: 4vw;
+    position: relative;
+    top: 4vw;
+    left: 20vw;
+}
+
+.marisa-social-media a img:hover{
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transform: scale(1.4);
+}
+
+/*Alexandra's Contact CSS*/
+#alexandra-cartoon{
+	width: 25vw;
+    float:left;
+    position: relative;
+    top: 10vw;
+}
+
+#alexandra-copy-1 img, #alexandra-copy-2 img, #alexandra-copy-3 img{
+    width: 65vw;
+    position: relative;
+    top: 20vw;
+}
+
+#alexandra-copy-3 img{
+    left: 25vw;
+}
+
+.alexandra-social-media:before{
+	content: "";
+    position: absolute;
+    top: 203vw;
+    left: 28vw;
+    width: 28vw;
+    height: 6vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_left_bubble.png);
+    background-size: 28vw 6vw;
+    transform: scaleY(-1);
+}
+
+.alexandra-social-media img{
+    width: 4vw;
+    position: relative;
+    top: 19vw;
+    left: 30vw;
+}
+
+.alexandra-social-media a img:hover{
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transform: scale(1.4);
+}
+
+@media(min-width:350px){
+    .marisa-social-media:before{
+    top:95vw;
+    left: 20vw;
+}
+
+.marisa-social-media img{
+    top: 5.75vw;
+    left: 20vw;
+}
+.alexandra-social-media:before{
+	top: 203vw;
+    left: 28vw;
+}
+
+.alexandra-social-media img{
+     top: 21vw;
+    left: 30vw;
+}
+}
+
+@media(min-width:400px){
+body{
+        height: 225vw;
+}
+
+.marisa-social-media:before{
+    top:93vw;
+}
+
+.marisa-social-media img{
+    left: 21vw;
+} 
+
+.alexandra-social-media:before{
+	top: 199vw;
+}
+    
+.alexandra-social-media img{
+    left: 31vw;
+} 
+    
+}
+
+@media(min-width:500px){
+.marisa-social-media:before{
+    top:92vw;
+}
+
+.marisa-social-media img{
+    left: 22vw;
+}
+
+.alexandra-social-media:before{
+	top: 195vw;
+}
+
+.alexandra-social-media img{
+    top: 20vw;
+    left: 31.5vw;
+}
+}
+@media(min-width:550px){
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top:90vw;
+    left: 20vw;
+    width: 45vw;
+    height: 6vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 6vw;
+    transform: scaleY(-1);
+}
+
+.marisa-social-media img{
+    width: 4vw;
+    position: relative;
+}
+
+.alexandra-social-media:before{
+	content: "";
+    position: absolute;
+    top:90vw;
+    left: 20vw;
+    width: 45vw;
+    height: 6vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 6vw;
+    transform: scaleY(-1);
+}
+
+.alexandra-social-media img{
+    width: 4vw;
+    position: relative;
+}
+}
+
+@media(min-width:700px){
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top:89vw;
+    left: 20vw;
+    width: 45vw;
+    height: 6vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 6vw;
+    transform: scaleY(-1);
+}
+
+.marisa-social-media img{
+    width: 4vw;
+    position: relative;
+    top: 5.75vw;
+    left: 23vw;
+}
+}
+
+@media (min-width:800px){
+    #marisa-cartoon{
+    position: relative;
+    top: 5vw;
+}
+
+#marisa-copy-1 img, #marisa-copy-2 img, #marisa-copy-3 img{
+   position: relative;
+    top: 20vw;
+}
+
+.marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 85.5vw;
+    left: 17vw;
+    width: 45vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 45vw 7vw;
+}
+
+.marisa-social-media img{
+    top: 21.5vw;
+    left: 21vw;
+}
+}
+
+@media (min-width:1000px){
+    #marisa-cartoon{
+    position: relative;
+    top: 20vw;
+    right: 5vw;
+    width: 18vw;
+}
+    #marisa-copy-1 img{
+    width: 65vw; 
+    top:0vw;
+    left: 7vw;
+}
+    #marisa-copy-2 img, #marisa-copy-3 img{
+        display: none;
+    }
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 39vw;
+    left: 35vw;
+    width: 35vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 35vw 7vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 3.75vw; 
+    top: 1vw;
+    left: 36.5vw;
+}
+}
+
+@media (min-width:1225px){
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 38vw;
+    left: 35vw;
+    width: 35vw;
+    height: 7vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 35vw 7vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 3.75vw; 
+    top: 1vw;
+    left: 36.5vw;
+}
+}
+
+@media (min-width:1500px){
+    #marisa-cartoon{
+    width: 15vw;
+    top: 15vw;
+}
+    #marisa-copy-1 img{
+    width: 35vw; 
+    top:5vw;
+    left: 40vw;
+}
+    
+    .marisa-social-media:before{
+	content: "";
+    position: absolute;
+    top: 29vw;
+    left: 50vw;
+    width: 25vw;
+    height: 5vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/short_right_bubble.png);
+    background-size: 25vw 5vw;
+    transform: scaleY(1);
+}
+    
+    .marisa-social-media img{
+    width: 2.5vw;
+    top: 6.5vw;
+    left: 51.75vw;
+}
+>>>>>>> b5e7d9fddcfa51549146bf2701f3f82fa0f21e63
 }
