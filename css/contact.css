@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
-    height: 280vw;
+    height: 160vw;
+    color: #0d0e10;
 }
 
 /*Marisa's Contact CSS*/
@@ -21,7 +22,44 @@ body{
     font-size: 1em;
 }
 
-.marisa-description:before{
+.name:before{
+    content: "";
+    position: absolute;
+	width: 68vw;
+    height: 16vw;
+    top: -3vw;
+    left: -3vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 68vw 16vw;
+    transform: scaleY(-1);
+}
+
+.para-1:before{
+    content: "";
+    position: absolute;
+	width: 68vw;
+    height: 33vw;
+    left: -3vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 68vw 33vw;
+    transform: scaleY(-1);
+}
+
+.para-2:before{
+    content: "";
+    position: absolute;
+	width: 68vw;
+    height: 68vw;
+    left: -3vw;
+    z-index: -1;
+    background-image: url(../images/creator_contact_art/large_right_bubble.png);
+    background-size: 68vw 68vw;
+    transform: scaleY(-1);
+}
+
+/*.marisa-description:before{
     content: "";
     position: absolute;
 	width: 68vw;
@@ -32,7 +70,7 @@ body{
     background-image: url(../images/creator_contact_art/large_right_bubble.png);
     background-size: 68vw 205vw;
     transform: scaleY(-1);
-}
+}*/
 
 
 /*.marisa-description{
@@ -82,8 +120,8 @@ body{
 .marisa-social-media{
 	width: 100vw;
 	position: absolute;
-    top: 215vw;
-    left: 10vw;
+    top: 128vw;
+    left: 6vw;
 }
     .marisa-social-media:before{
 	content: "";
